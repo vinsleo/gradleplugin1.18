@@ -1,0 +1,13 @@
+project.ext.gradle_version='2.10'
+subprojects {
+
+  apply plugin: "java"
+ 
+  repositories {
+    mavenCentral()
+  }
+
+  dependencies {
+     testCompile "junit:junit:4+"
+  }
+}
